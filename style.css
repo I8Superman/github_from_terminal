@@ -24,6 +24,6 @@ a {
   text-decoration: none;
 }
 
-/* a::after {
-  content: ;
-} */
+ul li:not(:last-child):after {
+  content: "|";
+}
