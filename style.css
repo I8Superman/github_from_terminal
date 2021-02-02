@@ -1,1 +1,29 @@
 /* this is a change */
+
+header {
+  background-color: aqua;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+nav {
+  background-color: cadetblue;
+  width: 80%;
+}
+ul {
+  background-color: coral;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* a::after {
+  content: ;
+} */
