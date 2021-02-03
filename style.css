@@ -20,10 +20,18 @@ li {
   list-style: none;
 }
 
+li + li::before {
+  content: "/";
+  margin-left: 0.5rem;
+  margin-right: 0.7rem;
+  pointer-events: none;
+  display: inline-block;
+  color: var(--grey, grey);
+
 a {
   text-decoration: none;
 }
 
-ul li:not(:last-child):after {
+/* ul li:not(:last-child):after {
   content: "|";
-}
+} */
